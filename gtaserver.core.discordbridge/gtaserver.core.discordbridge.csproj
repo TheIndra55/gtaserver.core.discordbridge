@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="5.0.0-rc.2.20475.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Indra.Discord\Indra.Discord.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="gtaserver.core">
+      <HintPath>..\..\gta\gtaserver.core\bin\Debug\net5.0\gtaserver.core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
